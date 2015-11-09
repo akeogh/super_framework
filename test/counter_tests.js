@@ -2,15 +2,15 @@ var chai = require('chai');
 var expect = chai.expect;
 var chaihttp = require('chai-http');
 chai.use(chaihttp);
+
 var Router = require(__dirname + '/../lib/router');
 require(__dirname + '/../server.js');
-
 describe('URLS counter', function(){
   it('should  get statistics for routes', function(done){
     chai.request('localhost:3000')
     .get('/stat')
     .end(function(err, res){
-      expect(err).to.eql(null);
+     expect(err).to.eql(null);
       expect(res).to.have.status(200); 
       done();
     });
@@ -27,23 +27,23 @@ describe('URLS counter', function(){
 });
 
  describe ('Counter checking', function () {
-	 it ('counter should be 0 in the beginning', function () {
+   it ('counter should be 0 in the beginning', function () {
     var router = new Router;
     router.get('/test');
     var counter = router.counts['GET']['/test'];
-    expect(counter).to.be.eql(0);	
-	});
-	it ('object router.count[] should have url and count data', function () {
+    expect(counter).to.be.eql(0); 
+  });
+  it ('object router.count[] should have url and count data', function () {
     var router = new Router;
     router.get('/test');
     var data = router.counts['GET'];
-    expect(data).to.be.eql({'/test': 0});	
-	});
-	 it ('object router.count[] should have url and count data', function () {
+    expect(data).to.be.eql({'/test': 0}); 
+  });
+   it ('object router.count[] should have url and count data', function () {
     var router = new Router;
     var data = Object.keys(router.counts);
-    expect(data).to.be.eql(['GET', 'POST', 'PUT', 'PATCH', 'DELETE']);	
-	});
+    expect(data).to.be.eql(['GET', 'POST', 'PUT', 'PATCH', 'DELETE']);  
+  });
 });
 
 describe ('Counter incrementing', function () {
@@ -74,8 +74,7 @@ describe ('Counter incrementing', function () {
       router.route(req, res);
       var counternew = router.counts['GET']['/test'];
       expect(counternew-1).to.be.eql(countBefore);
-      done();	
+      done(); 
     });
   });
 })
- 
