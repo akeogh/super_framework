@@ -26,6 +26,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-mark-github:before {
+    content: "\e902";
+}
+.icon-linkedin:before {
+    content: "\e900";
+}
 .icon-facebook2:before {
   content: "\ea8d";
 }
