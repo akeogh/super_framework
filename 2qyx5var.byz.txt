@@ -1,0 +1,55 @@
+﻿Merge remote-tracking branch 'upstream/master'
+
+Conflicts:
+	lib/router.js
+	public/iryna_bondarenko/css/fonts.css
+	public/iryna_bondarenko/fonts/icomoon.eot
+	public/iryna_bondarenko/fonts/icomoon.svg
+	public/iryna_bondarenko/fonts/icomoon.ttf
+	public/iryna_bondarenko/fonts/icomoon.woff
+	public/iryna_bondarenko/index.html
+	server.js
+	test/counter_tests.js
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	deleted:    public/amanda_keogh/base.css
+#	deleted:    public/amanda_keogh/fonts.css
+#	deleted:    public/amanda_keogh/fonts/icomoon.eot
+#	deleted:    public/amanda_keogh/fonts/icomoon.svg
+#	deleted:    public/amanda_keogh/fonts/icomoon.ttf
+#	deleted:    public/amanda_keogh/fonts/icomoon.woff
+#	deleted:    public/amanda_keogh/reset.css
+#	deleted:    public/amanda_keogh/resume.html
+#	deleted:    public/index.html
+#	deleted:    public/iryna_bondarenko/css/base.css
+#	deleted:    public/iryna_bondarenko/css/reset.css
+#	deleted:    public/iryna_bondarenko/fonts/linkedin.svg
+#	deleted:    public/styles.css
+#	deleted:    public/tinasharma/base.css
+#	deleted:    public/tinasharma/fonts.css
+#	deleted:    public/tinasharma/fonts/icomoon.eot
+#	deleted:    public/tinasharma/fonts/icomoon.woff
+#	deleted:    public/tinasharma/reset.css
+#	deleted:    public/tinasharma/resume.html
+#	deleted:    test/testDirectory/boo.js
+#	deleted:    test/testDirectory/foo.js
+#	deleted:    test/testDirectory/test2/noo.js
+#
+# Untracked files:
+#	public/amanda_keogh/
+#	public/index.html
+#	public/iryna_bondarenko/css/base.css
+#	public/iryna_bondarenko/css/reset.css
+#	public/iryna_bondarenko/fonts/linkedin.svg
+#	public/styles.css
+#	public/tinasharma/
+#	test/testDirectory/boo.js
+#	test/testDirectory/foo.js
+#	test/testDirectory/test2/noo.js
+#
+
